@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	gap:10px;
+	width:100%;
+	heigth:100vh;
+	align-items: center;
+	justify-content:center;
+}
+.section>img{
+	width:100%
+}
+.container>div:nth-child(1){
+	width 450px;
+	margin-top:70px;
+	display:inline-block;
+}
+form{
+	display:flex;
+	width:300px;
+	background-color:white;
+	padding:20px;
+	flex-direction:column;
+	border-radius:5px;
+	box-shadow:0 0 10px #ccc;
+	gap:10px;
+}
+input{
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:10px;
+}
+button{
+	background-color:#1877f2;
+	border-radius:5px;
+	padding:10px 20px;
+	width:100%;
+	color:white;
+	border:#1877f2
+	
+}
+a{
+	text-decoration:none;
+	color:blue;
+}
+.signup{
+	background-color:#42b72a;
+	border: solid #42b72a
+}
+
