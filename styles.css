@@ -1,5 +1,7 @@
 /*  your css code here. If applicable */
-.container{
+body{
+	background-color: #E6E6E6;
+	padding:50px;
 	display:flex;
 	gap:10px;
 	width:100%;
